@@ -46,8 +46,7 @@ flowchart LR
 2. The client calls the Express API under `/api` and sends the current user ID in the `x-user-id` header.
 3. Express validates request data, applies member or admin authorization, and executes Mongoose queries.
 4. MongoDB stores users, books, borrow records, favorites, notifications, and admin activity logs.
-5. Borrowing changes a book from `Available` to `Borrowed` and creates a 14-day borrow record.
-6. Returning a book changes the record to `Returned` and restores the book to `Availabl
+5. Borrowing changes a book from `Available` to `Borrowed` and creates a 14-day borrow recor
 
 ## User and Admin Flows
 
