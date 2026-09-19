@@ -10,7 +10,7 @@ Digital Library Management System/
 ├── src/                         # Primary React application
 │   ├── App.jsx                  # Member-facing routes and views
 │   ├── App.css                  # Main application styles
-│   ├── main.jsx                 # React entry point
+│   ├── main.jsx                 # React entry poin
 │   ├── admin/                   # Admin shell and admin pages
 │   │   ├── AdminApp.jsx
 │   │   └── pages/
@@ -86,7 +86,7 @@ flowchart TD
 
 ## API Reference
 
-The base URL is `http://localhost:5000/api` in local development. Protected member endpoints expect `x-user-id`; admin endpoints additionally require that the referenced user has `isAdmin: true`.
+The base URL is `http://localhost:5000/api` in local development. Protected member endpoints expect `x-user-id`; admin endpoints additionally require that the ref
 
 ### Authentication
 
